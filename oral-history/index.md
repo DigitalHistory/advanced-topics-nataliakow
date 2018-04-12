@@ -32,6 +32,9 @@ you can learn more about remarkable on [its github page](https://github.com/jons
 
 [^second]: Footnote text.
 
+Natalia Kowalenko
+HIS393H
+Professor Price
 
 The Atomic Bomb: Looking back at its detonation
 
