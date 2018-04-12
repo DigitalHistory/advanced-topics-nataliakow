@@ -5,8 +5,8 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2018-04-11T03:06:57.935Z",
-    "end": "2018-04-11T03:06:58.029Z",
+    "start": "2018-04-12T03:32:12.999Z",
+    "end": "2018-04-12T03:32:13.093Z",
     "duration": 94,
     "testsRegistered": 1,
     "passPercent": 100,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "900ef349-d238-46b5-9977-902a9d80d881",
+    "uuid": "5f1f8979-c361-4a73-b3d5-e73552d84fe1",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,23 +28,23 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "a9a96ef0-d868-450b-9744-915fffffb8e7",
+        "uuid": "e010b47c-679d-4360-abac-fc2bfd508cd2",
         "title": "Test if map divs are contained in markdown file",
-        "fullFile": "C:\\Users\\bodzio1950\\advanced-topics-nataliakow\\test\\test-maps.js",
+        "fullFile": "C:\\Users\\bodzio1950\\Desktop\\advanced-topics-nataliakow\\test\\test-maps.js",
         "file": "\\test\\test-maps.js",
         "beforeHooks": [
           {
             "title": "\"before all\" hook",
             "fullTitle": "Test if map divs are contained in markdown file \"before all\" hook",
             "timedOut": false,
-            "duration": 47,
+            "duration": 63,
             "pass": false,
             "fail": false,
             "pending": false,
             "code": "// set up dom with google maps and jquery\n// parse index.md\nmdFile=fs.readFileSync(\"spatial-history/index.md\", \"utf-8\");\nparsedMD = md.render(mdFile);\n//console.log(parsedMD);\ndom = new JSDOM(parsedMD);\nwindow=dom.window;\ndocument=window.document;\nconsole.log(dom.window.document.querySelector('div#mapcontainer'))",
             "err": {},
             "isRoot": false,
-            "uuid": "04e5144c-ebe1-41a5-97e5-4ff5d049d1dc",
+            "uuid": "c0fc2d6a-2a55-4c46-9044-f7630b3baeae",
             "isHook": true,
             "skipped": false
           }
@@ -64,14 +64,14 @@
             "code": "expect(document.querySelector('div#mapcontainer'), \"no div with id mapcontainer\").to.exist;\nexpect(document.querySelector('div#mapcontainer div#map_canvas'), \"no div with id map_canvas inside mapcontainer\").to.exist;\n//expect(document.querySelector('div#mapcontainer div#map_legend'), \"no div with id map_legend inside mapcontainer\").to.exist;",
             "err": {},
             "isRoot": false,
-            "uuid": "18ec1c86-7162-4e39-88e9-8a37b98eab37",
+            "uuid": "d827825a-459c-4aa0-aa79-4f2fc1082dde",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "18ec1c86-7162-4e39-88e9-8a37b98eab37"
+          "d827825a-459c-4aa0-aa79-4f2fc1082dde"
         ],
         "failures": [],
         "pending": [],
